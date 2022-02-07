@@ -1,0 +1,24 @@
+{
+  "name": "compact-sequelize",
+  "version": "1.0.0",
+  "description": "Compacts SEQUELIZE results to make them easier to manipulate and more readable",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PabloMerener/compact-sequelize.git"
+  },
+  "keywords": [
+    "sequelize",
+    "compact",
+    "readable"
+  ],
+  "author": "Pablo Merener <pablo.merener@gmail.com> (https://github.com/PabloMerener)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PabloMerener/compact-sequelize/issues"
+  },
+  "homepage": "https://github.com/PabloMerener/compact-sequelize#readme"
+}
