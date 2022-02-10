@@ -24,11 +24,7 @@ const compactObject = (object) => {
 }
 
 const compact = (data) => {
-    if (Array.isArray(data)) {
-        return data.map(e => compactObject(e));
-    } else {
-        return compactObject(data);
-    }
+    return (Array.isArray(data)) ? data.map(e => compactObject(e)) : compactObject(data);
 }
 
 module.exports = { compact }
